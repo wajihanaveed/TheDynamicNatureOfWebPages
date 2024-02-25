@@ -55,7 +55,7 @@ try:
         
         data.append([webname, category, url, current_time, modified, iframe_str, modified_iframes_str])
     
-    # Append data to CSV file
+    # Appending data to CSV file
     with open(csv_file, mode='a', newline='') as file:
         writer = csv.writer(file)
         if not file_exists:
